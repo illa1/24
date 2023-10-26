@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	font-family:Roboto;
+}
+.a1{
+	background-image:url("images/title.png");
+	height:1000px;
+	background-size:cover;
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.a1 h1{
+	font-size:100px;
+	margin:10px;
+}
+.a1 p{
+	font-size:20px;
+	margin:10px;
+}
+.a1 div{
+	font-size:20px;
+	background-color:#fcc400;
+	padding:10px 50px;
+	margin:10px;
+	border-radius:50px;
+}
+header{
+	width:100%;
+	color:white;
+	font-size:25px;
+	background-color:rgba(10, 50, 100, 0.3);
+	position:fixed;
+	top:0;
+	z-index:100;
+}
+.menu{
+	display:flex;
+	align-items:center;
+	justify-content: space-evenly;
+	flex-direction:row;
+}
+.dog{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin:0 30% 0 0;
+}
+.dog img{
+	width:55px;
+}
+.glass img{
+	width:85px;
+}
+.a2{
+	background-color:#5b9fe6;
+	height:1000px;
+	background-size:cover;
+	position:relative;
+	overflow: hidden;
+}
+.a2img img{
+	position:absolute;
+}
+.img1{
+	left:-50px;
+	top:-20px;
+	width:600px;
+}
+.img2{
+	right:-110px;
+	top:-60px;
+	width:600px;
+}
+.point1{
+	z-index:2;
+	right:150px;
+	top:100px;
+	width:100px;
+}
+.point2{
+	position:absolute;
+	z-index:2;
+	width:100px;
+	left:150px;
+	top:-20px;
+}
+.triangle1{
+	z-index:2;
+	width:100px;
+	left:150px;
+	top:100px;
+}
+.triangle2{
+	z-index:2;
+	width:100px;
+	right:150px;
+	bottom:20px;
+}
+.a2info {
+	position:absolute;
+	z-index:5;
+	width:100%;
+	color:white;
+	font-size:20px;
+	margin:10px;
+}
+.info{
+	margin:60px;
+	display:flex;
+	justify-content: space-evenly;
+}
+.infoa{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+h3{
+	font-size:40px;
+}
+h2{
+	font-size:90px;
+	margin:100px 0 10px;
+}
+.infotitle{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.infotitle p{
+	margin:30px;
+}
+.a3{
+	background-image:url("images/pet_and.png");
+	height:1000px;
+	background-size:cover;
+	color:white;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	position:relative;
+}
+.number{
+	display:flex;
+	align-items:center;
+	justify-content: space-evenly;
+	flex-direction:row;
+}
+.number div{
+	margin:160px 100px 100px;
+	border:8px solid white;
+	border-radius:50%;
+	width:200px;
+	height:200px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+footer{
+	height:300px;
+	background-color:#313131;
+	font-size:20px;
+	color:white;
+	display:flex;
+	justify-content: space-evenly;
+	flex-direction:row;
+	padding:100px 200px 0;
+	overflow: hidden;
+}
+footer div{
+	display:flex;
+	flex-direction:column;
+}
+.footer{
+	width:500px;
+}
+.footer img{
+	width:180px;
+	padding:20px 0 0 0;
+}
+h4{
+	font-size:40px;
+}
+footer p{
+	padding:10px 0 0 0;
+}
